@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Tinos:ital,wght@1,700&display=swap" rel="stylesheet">
+    <style>
+        #myImage {
+          opacity: 0;
+          transition: opacity 1s ease-in-out;
+        }
+    </style>
+    <script src="js/onas.js"></script>
+    <title>FlowerBoutique</title>
+</head>
+<body>
+<script src="js/button.js"></script>
+<div class="header">
+    <div class="header-line">
+        <div class="nav">
+            <div class="menu">
+                <a class="nav-item" href="#onas">О нас</a>
+                <a class="nav-item" href="catalog.html" target="_blank">Каталог</a>
+                <a class="nav-item" href="#preimushestva">Наши преимущества</a>
+                <a class="nav-item" href="#contacts">Контакты</a>
+                <a class="nav-item" href="#dostavka">Доставка</a>
+                <a class="nav-item" href="#oplata">Оплата</a>
+                <a class="nav-item" href="#otzivy">Отзывы</a>
+                <a class="nav-item" href="#oformitzakaz">Оформить заказ</a>
+            </div>
+        </div>
+    </div>
+    <div class="header-title">
+        Flower Boutique
+    </div>
+</div>
+<div class="images">
+    i   m   a   g   e   s
+</div>
+
+<!-- Slideshow container -->
+<div class="slideshow-container">
+    <!-- Full-width images with number and caption text -->
+    <div class="mySlides fade">
+      <div class="numbertext">1 / 3</div>
+      <img src="files/img1.jpg" style="width: 653px;">
+    </div>
+    <div class="mySlides fade">
+      <div class="numbertext">2 / 3</div>
+      <img src="files/img2.jpg" style="width: 653px;">
+    </div>
+    <div class="mySlides fade">
+      <div class="numbertext">3 / 3</div>
+      <img src="files/img3.jpg" style="width: 653px;">
+    </div>
+    <!-- Next and previous buttons -->
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+  </div>
+  <br>
+  <!-- The dots/circles -->
+  <div style="text-align:center">
+    <span class="dot" onclick="currentSlide(1)"></span>
+    <span class="dot" onclick="currentSlide(2)"></span>
+    <span class="dot" onclick="currentSlide(3)"></span>
+  </div>
+
+<script src="js/images.js"></script>
+
+<div class="onas">
+    <div class="onas1" id="onas">
+        О нас
+    </div>
+    <div class="onastext">
+        Интернет-магазин Flower Boutique - сеть цветочных магазинов в Москве. Компания предлагает букеты по выгодным ценам.  Профессиональные флористы соберут композицию, а наши курьеры доставят заказ по Москве в указанное время.
+    </div>
+    <div class="tsvetyzhizn">
+        Цветы -  наша жизнь
+    </div>
+    <div class="tsvetyzhizntext">
+        В нашем каталоге Вы найдете букет или композицию для любого, даже самого уникального, жизненного случая по самым приятным ценам. Наши консультанты с удовольствием помогут Вам подобрать вариант для вашей конкретной ситуации, если вы теряетесь в выборе из нашего многообразного количества композиций. У нас вы найдете как простые варианты из скромных и нежных цветов детства, так и пышные букеты из роскошных цветов, достойных королевы или короля.
+    </div>
+    <div class="onasfoto">
+        <img id="myImage" src="files/onas.jpg" style="position: relative; left: 940px;" alt="Моя картинка">
+    </div>
+</div>
+<div class="preimushestva">
+    <div class="zagolovok" id="preimushestva">
+        Наши преимущества
+    </div>
+<div class="cardsholder">
+    <div class="cardpreim">
+        <div class="cardimage">
+            <img class="card-img" src="files/plantacii (1).jpg">
+        </div>
+        <div class="cardtext">
+            Прямые поставки цветов сразу с планатций
+        </div>
+    </div>
+    <div class="cardpreim">
+        <div class="cardimage">
+            <img class="card-img" src="files/tsvety.jpg">
+        </div>
+        <div class="cardtext">
+            Заменим букет, если вас не устроит качество цветов
+        </div>
+    </div>
+    <div class="cardpreim">
+        <div class="cardimage">
+            <img class="card-img" src="files/fotkatsvetov.jpg">
+        </div>
+        <div class="cardtext">
+            Всегда отправляем фото букета после сборки
+        </div>
+    </div>
+    <div class="cardpreim">
+        <div class="cardimage">
+            <img class="card-img" src="files/anonym.jpg">
+        </div>
+        <div class="cardtext">
+            Есть возможность анонимной доставки
+        </div>
+    </div>
+</div>
+<div class="cardsholder">
+    <div class="cardpreim">
+        <div class="cardimage">
+            <img class="card-img" src="files/visokkachestvo.jpg">
+        </div>
+        <div class="cardtext">
+            Цветы высокого качества
+        </div>
+    </div>
+    <div class="cardpreim">
+        <div class="cardimage">
+            <img class="card-img" src="files/servis.jpg">
+        </div>
+        <div class="cardtext">
+            Сервис высокого уровня
+        </div>
+    </div>
+    <div class="cardpreim">
+        <div class="cardimage">
+            <img class="card-img" src="files/dostavochka.jpg">
+        </div>
+        <div class="cardtext">
+            Надежная доставка в срок
+        </div>
+    </div>
+    <div class="cardpreim">
+        <div class="cardimage">
+            <img class="card-img" src="files/fotooplaty.jpg">
+        </div>
+        <div class="cardtext">
+            Оплата при получении
+        </div>
+    </div>
+</div>
+<div class="contacts">
+    <div class="zagolovok" id="contacts">
+        Контакты
+    </div>
+    <div class="contact1">
+        <div class="dis-flex">
+            <div class="contact2">
+                <img src="files/geo.png" class="foto">
+                <div class="contact-text">
+                    г. Москва, ул. Косяткова 10 (метро Тимирязевская)
+                </div>
+            </div>
+            <div class="contact2">
+                <img src="files/vremya.png" class="foto">
+                <div class="contact-text">
+                    Режим работы магазина: пн-вс 08:30-21:30 доставка круглосуточно 24/7
+                </div>
+            </div>
+        </div>
+        <div class="dis-flex">
+            <div class="contact2">
+                <img src="files/navigation.png" class="foto">
+                <div class="contact-text">
+                    Сеть магазинов качественных цветов и букетов по самым выгодным ценам в Москве и Подмосковье. Доставка цветов по всей Московской области.
+                </div>
+            </div>
+            <div class="contact2">
+                <img src="files/pochta.png" class="foto">
+                <div class="contact-text">
+                    Обращения присылать  на почту: vkinoshka@gmail.com
+                </div>
+            </div>
+        </div>
+        <div class="dis-flex">
+            <div class="contact2">
+                <img src="files/telephone.png" class="foto">
+                <div class="contact-text">
+                    Отдел контроля качества: 89061338889
+                </div>
+            </div>
+            <div class="contact2">
+                <img src="files/messanger.png" class="foto">
+                <div class="contact-text">
+                    Telegram, Whatsapp, Viber: 89061338889
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="dostavka">
+    <div class="zagolovok" id="dostavka">
+        Доставка
+    </div>
+    <div class="deliver-text">
+        <div class="deliver-text1">
+            Компания Flower Boutique - цветочный магазин с доставкой цветов и букетов на дом по Москве и Московской области.
+        </div>
+        <div class="deliver-text2">
+            На сегодняшний день в нашей компании всего 1 магазин . Вы можете оформить самовывоз любого понравившегося на сайте букета из магазина по адресу ул. Костякова д.10 или подобрать самостоятельно уже на месте. Адрес и график работы магазина Вы можете посмотреть в разделе контакты или проконсультироваться с менеджером по номеру телефона 8 (495) 120-24-30
+        </div>
+    </div>
+    <div class="fotodostavka">
+        <img src="files/dostavka.jpg">
+    </div>
+</div>
+<div class="stdost">
+    <div class="zagolovok">
+        Стоимость доставки
+    </div>
+    <table class="iksweb">
+        <tbody>
+        <tr>
+        <td colspan="2" rowspan="2">ВРЕМЯ</td>
+        <td colspan="2">В ПРЕДЕЛАХ МКАД</td>
+        <td rowspan="2">ЗА МКАД</td>
+        </tr>
+        <tr>
+        <td>до 5000 рублей</td>
+        <td> от 5000 рублей</td>
+        </tr>
+        <tr>
+        <td>ДНЕВНАЯ ДОСТАВКА</td>
+        <td>09:00-22:00 (в будние дни) <br> 10:00-22:00 (по выходным)</td>
+        <td>500 рублей</td>
+        <td>БЕСПЛАТНО</td>
+        <td>600 рублей + 50 рублей за <br> каждый следующий км.</td>
+        </tr>
+        <tr>
+        <td>НОЧНАЯ ДОСТАВКА</td>
+        <td>22:00-09:00 (в будние дни) <br> 22:00-10:00 (по выходным)</td>
+        <td>2500 рублей</td>
+        <td>2000 рублей</td>
+        <td>2500 рублей + 50 рублей за <br> каждый следующий км.</td>
+        </tr>
+        </tbody>
+    </table>
+</div>
+<div class="zagolovok" id="pickup">
+    Самовывоз
+</div>
+    <div class="pickup">
+        <img src="files/geometka1.png">
+        <img src="files/deliv.jpg">
+        <img src="files/tphone.png">
+    </div>
+    <div class="samtext">
+        г. Москва, ул. Косяткова 10 <br> (метро Тимирязевская)
+        <div class="samtext1">
+            Режим работы магазина:<br> пн-вс 08:30-22:00 <br>доставка круглосуточно 24/7
+        </div>
+        <div class="samtext1">
+            По всем вопросам 89061338889
+        </div>
+    </div>
+<div class="map">
+    <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A265f6ebbe46b86c49327c6a1543caa452552f489a8eead9250b6ba3da5dd0d39&amp;width=500&amp;height=280&amp;lang=ru_RU&amp;scroll=true"></script>
+</div>
+<div class="zagolovok" id="oplata">
+    Способы оплаты
+</div>
+<div class="oplata-foto">
+    <img src="files/nalprisamovyzove.png">
+    <img src="files/nalichnimikuriery.png">
+    <img src="files/ellektroniyplatezh.png">
+    <img src="files/beznal.png">
+</div>
+<div class="oplata">
+    <div class="oplata-text">
+        Наличными при <br> самовывозе
+    </div>
+    <div class="oplata-text1">
+        Наличными <br> курьеру
+    </div>
+    <div class="oplata-text2">
+        Электронный <br> платеж
+    </div>
+    <div class="oplata-text3">
+        Безналичный <br> расчёт
+    </div>
+</div>
+<div class="zagolovok" id="otzivy">
+    Отзывы покупателей
+    <div class="dis-flex">
+        <div class="review-buyers-block">
+            <div class="circle-avatar">
+            </div>
+            <h2 class="name-of-buyer">Сергей Николаев</h2>
+            <div class="text-left dis-flex w400">
+                <h3>Все очень понравилось! Заказывала впервые.
+                    Букет оформлен красиво и аккуратно, цветы
+                    свежие, доставили вовремя. Буду рекомендовать
+                    всем ! Спасибо вам за такую красоту!</h3>
+                    <img src="files/gortenzii.jpg">
+            </div>
+        </div>
+        <div class="review-buyers-block">
+            <h2>Александра Петрова</h2>
+            <div class="text-left dis-flex w400">
+                <h3>Заказала 51 розу. Это шедевр. Прошла уже неделя
+                    - они как только что срезали с куста. Спасибо за
+                    цветы, за настроение, за красоту, запах и день
+                    рождения. Курьер был вовремя, все сложилось
+                    удачно. Так держать. Очень приятно иметь дело с
+                    такими компаниями, которые не подводят и создают
+                    праздник! Процветания вам и много много заказов!</h3>
+                    <img src="files/roziy1.jpg">
+            </div>
+        </div>
+    </div>
+    <div class="dis-flex">
+        <div class="review-buyers-block">
+            <h2>Екатерина Иванова</h2>
+            <div class="text-left dis-flex w400">
+                <h3 >Превосходный букет, очень быстро собрали и
+                    организовали доставку. Букет очень нежный,
+                    воздушный, словно блестящая жемчужинка:)
+                    Сестра была восторге. Спасибо вам огромное!!
+                </h3>
+                <img src="files/gipsofily.jpg">
+            </div>
+        </div>
+        <div class="review-buyers-block">
+            <h2>Руслан Мурзаев</h2>
+            <div class="text-left dis-flex w400">
+                <h3>Букет как с картинки привезли, не ожидал!
+                    Поздравил маму, она довольная, аж прослезилась.
+                    Спасибо, что дарите такие теплые эмоции! :)
+                    Прекрасный сервис у вас, ребята. Успехов и
+                    побольше клиентов!</h3>
+                    <img src="files/gvozdiki.jpg">
+            </div>
+        </div>
+    </div>
+    <div class="dis-flex">
+        <div class="review-buyers-block">
+            <h2>Николай Рафальский</h2>
+            <div class="text-left dis-flex w400">
+                <h3>Очень достойный сервис. Продуманная компания.
+                    Заказывал букет для девушки. Ваш магазин оставил
+                    приятное впечатление от профессионализма,
+                    пунктуальности и вниманию к мелочам. От души
+                    благодарю! Моя любимая и ее гости были в восторге.</h3>
+                    <img src="files/roziy.jpg">
+            </div>
+        </div>
+        <div class="review-buyers-block">
+            <h2>Михаил Гаврилов</h2>
+            <div class="text-left dis-flex w400">
+                <h3>Обращаюсь не первый раз, как всегда всё прошло
+                    замечательно, чётко, быстро, без сбоев, рекомендую
+                    всем! Букет получился безумно красивым. А мне
+                    удалось порадовать девушку!</h3>
+                    <img src="files/tylpany.jpg">
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="zagolovok" id="oformitzakaz">
+    Оформить заказ
+</div>
+    <form id='survey-form' >
+    <div class='form-input'>
+        <label id='name-label'>Ваше имя</label>
+        <input type='text' id='name' placeholder='Введите ваше имя' class='form-input-size' required />
+    </div>
+    <div class='form-input'>
+        <label id='tel-label'>Номер телефона</label>
+        <input type='tel' id='tel' placeholder='Введите номер телефона' class='form-input-size' required />
+    </div>
+    <div class='form-input'>
+        <label id='art-code-label'>Артикул выбранного букета</label>
+        <input type='text' id='art-code' placeholder='Введите артикул' class='form-input-size' required />
+    </div>
+    <div class='form-input'>
+        <label id='address-label'>Адрес доставки</label>
+        <input type='text' id='address' placeholder='Введите адрес' class='form-input-size' required />
+    </div>
+    <div class='form-input'>
+        <label id='time-label'>Дата и время доставки</label>
+        <input type='datetime-local' id='time-label' placeholder='Введите дату и время' class='form-input-size' required />
+    </div>
+    <div class='form-input'>
+        <button id="sendButton" onclick="changeButtonText()">Отправить</button>
+    </div>
+</form>
+</div>
+<div class="footer">
+    <div class="container">
+        <div class="column1">
+            <a href="#contacts">Контакты</a> <br>
+            <a  href="#dostavka">Мы на карте</a> <br>
+            <a  href="#contacts">Режим работы</a>
+        </div>
+        <div class="column2">
+            <a  href="#otzivy">Отзывы</a> <br>
+            <a  href="#preimushestva">Наши преимущества</a> <br>
+            <a  href="#dostavka">Доставка</a>
+        </div>
+    </div>
+<p>Скидка -10%  по промокоду "ДОЛИСТАЛДОКОНЦА"</p>
+<p>VKINOSHKA PRODUCTION  Все права защищены © 2024  Designed By: VIKTORIA IVANOVA</p>
+</div>
+</body>
+</html>
